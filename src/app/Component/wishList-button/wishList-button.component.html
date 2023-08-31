@@ -1,0 +1,15 @@
+<button
+  [disabled]="isAddedToWishlist(product)"
+  class="wishlist-button"
+  (click)="addToWishlist(product)"
+>
+  <span *ngIf="!isLoading && !isAddedToWishlist(product)">
+    Add to wishlist
+  </span>
+  <span *ngIf="isLoading">
+    <i class="fas fa-spinner fa-spin"></i>
+  </span>
+  <span *ngIf="!isLoading && isAddedToWishlist(product)"
+    >Added to wishlist
+  </span>
+</button>

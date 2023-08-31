@@ -1,0 +1,30 @@
+.delete-popup-title {
+  font-size: 1.25rem;
+  color: #ff0000;
+}
+
+.delete-popup-content {
+  margin-top: 0.625rem;
+  color: #333;
+}
+
+.delete-popup-actions {
+  margin-top: 0.625rem;
+  justify-content: flex-end;
+}
+
+.popup-button {
+  padding: 0.625rem;
+  margin-left: 0.625rem;
+  border-radius: 0.3125rem;
+  background: none;
+}
+
+.popup-button.ok {
+  color: #ff0404;
+  border: 1px solid #ff0000;
+}
+
+.popup-button.cancel {
+  border: none;
+}
